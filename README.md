@@ -1,16 +1,17 @@
-PCL2 Language Launcher
+# PCL2 Language Launcher
 
 一個開源的 Windows 第三方輔助工具，用於在特定 Windows 系統語言環境下啟動 Plain Craft Launcher 2（PCL2）。
 
 本專案的目的非常單純：
 
 在不修改 PCL2 本體的情況下，暫時將 Windows 使用者介面語言覆寫為 zh-CN，啟動 PCL2，並在 PCL2 關閉後自動恢復原本的 Windows UI Language Override。
+（該專案主要面嚮與處於中國大陸地區，設備語言非簡體中文，且未使用正版登入的用戶）
 
 本專案完全開源，不包含 PCL2，也不包含 Minecraft。
 
 ⸻
 
-專案定位
+## 專案定位
 
 PCL2 Language Launcher 是一個獨立的第三方 Windows 輔助工具。
 
@@ -33,7 +34,7 @@ PCL2 Language Launcher 是一個獨立的第三方 Windows 輔助工具。
 
 ⸻
 
-為什麼需要這個工具？
+## 為什麼需要這個工具？
 
 在部分 Windows 語言環境下，PCL2 可能存在與系統使用者介面語言相關的啟動限制或環境要求。
 
@@ -54,7 +55,7 @@ zh-CN
 
 ⸻
 
-工作原理
+## 工作原理
 
 本工具不修改 PCL2 本身。
 
@@ -91,7 +92,7 @@ PCL2 結束後，本工具會恢復啟動前記錄的設定。
 
 ⸻
 
-主要功能
+## 主要功能
 
 * 開源
 * Windows 10 / Windows 11
@@ -109,11 +110,11 @@ PCL2 結束後，本工具會恢復啟動前記錄的設定。
 
 ⸻
 
-適用使用者
+## 適用使用者
 
 本專案主要面向：
 
-身處中國大陸、尚未購買 Minecraft 正版帳戶，並且 Windows 使用者介面語言不是簡體中文 zh-CN 的使用者。
+**身處中國大陸、尚未使用 Minecraft 正版帳戶，並且 Windows 使用者介面語言不是簡體中文 zh-CN 的使用者。**
 
 這是本專案最主要的使用場景。
 
@@ -125,7 +126,7 @@ PCL2 結束後，本工具會恢復啟動前記錄的設定。
 
 ⸻
 
-支持 Minecraft 正版
+## 支持 Minecraft 正版
 
 如果你有能力，請購買正版 Minecraft
 
@@ -148,7 +149,7 @@ PCL2 結束後，本工具會恢復啟動前記錄的設定。
 * Minecraft 授權繞過
 * Minecraft 登入繞過
 
-如果你目前沒有購買正版的條件，本專案只提供 Windows 層面的 PCL2 啟動輔助。
+**如果你目前沒有購買正版的條件，本專案只提供 Windows 層面的 PCL2 啟動輔助。**
 
 當你未來具備購買條件時，我們仍然建議你購買正版。
 
@@ -156,17 +157,17 @@ PCL2 結束後，本工具會恢復啟動前記錄的設定。
 
 ⸻
 
-Minecraft 官方資源
+## Minecraft 官方資源
 
 如果你尚未購買 Minecraft 正版，可以通過 Minecraft 官方網站了解及購買。
 
-Minecraft 正版購買
+**Minecraft 正版購買**
 
 前往 Minecraft 官方網站購買 Minecraft Java 版與 Bedrock 版
 
 Minecraft 官方目前提供 PC 版 Minecraft Java Edition 與 Bedrock Edition。官方網站也提供 Minecraft Launcher 等相關下載。(Minecraft.net)
 
-Minecraft 官方下載
+**Minecraft 官方下載**
 
 前往 Minecraft 官方下載頁面
 
@@ -174,7 +175,7 @@ Minecraft 官方下載
 
 ⸻
 
-PCL2
+## PCL2
 
 PCL2（Plain Craft Launcher 2） 是一個獨立的 Minecraft 啟動器。
 
@@ -192,7 +193,7 @@ Plain Craft Launcher — PCL2-4941
 
 ⸻
 
-PCL 相關授權與合理使用
+## PCL 相關授權與合理使用
 
 PCL 官方公開了《PCL 分發有限許可》以及《PCL 存儲庫合理使用指南》。
 
@@ -214,7 +215,7 @@ PCL 分發有限許可與合理使用指南
 
 ⸻
 
-本專案與 PCL2 的關係
+## 本專案與 PCL2 的關係
 
 本專案：
 
@@ -234,7 +235,7 @@ PCL 分發有限許可與合理使用指南
 
 ⸻
 
-使用方式
+## 使用方式
 
 1. 取得本工具
 
@@ -268,7 +269,7 @@ Plain Craft Launcher 2.exe
 
 ⸻
 
-使用流程
+## 使用流程
 
 例如你的 Windows 顯示語言為：
 
@@ -299,7 +300,7 @@ Windows UI Language Override
 
 ⸻
 
-隱私與安全
+## 隱私與安全
 
 本工具本身不需要登入任何帳戶。
 
@@ -324,7 +325,7 @@ PCL2 的帳戶登入、Minecraft 登入以及遊戲本身的網路通信由 PCL2
 
 ⸻
 
-開源
+## 開源
 
 本專案完全開源。
 
@@ -344,8 +345,7 @@ PCL2 的帳戶登入、Minecraft 登入以及遊戲本身的網路通信由 PCL2
 如果你發現任何安全問題、功能問題或其他值得改進的地方，歡迎提交 Issue 或 Pull Request。
 
 ⸻
-
-建置
+## 建置
 
 開發環境
 
@@ -390,7 +390,7 @@ PCL2 本體不包含在本專案中。
 
 ⸻
 
-問題回報
+## 問題回報
 
 如果你遇到本工具自身的問題，例如：
 
@@ -422,9 +422,9 @@ PCL2 本體不包含在本專案中。
 
 ⸻
 
-合法性、授權及撤銷聯絡
+## 合法性、授權及撤銷聯絡
 
-本專案作者希望以善意、透明、開源及尊重第三方權利的方式提供本工具。
+**本專案作者希望以善意、透明、開源及尊重第三方權利的方式提供本工具。**
 
 如果任何：
 
@@ -453,17 +453,17 @@ PCL2 本體不包含在本專案中。
 * 撤銷本專案
 * 停止維護
 
-請直接聯絡作者：
+**請直接聯絡作者：**
 
 zodfevtyn21@gmail.com
 
 我們會認真查看相關要求，並在合理範圍內進行處理。
 
-如果你是 PCL2 相關開發者或權利人，也歡迎直接透過上述電子郵件聯絡，而不需要先通過其他渠道。
+**如果你是 PCL2 相關開發者或權利人，也歡迎直接透過上述電子郵件聯絡，而不需要先通過其他渠道。**
 
 ⸻
 
-免責聲明
+## 免責聲明
 
 本工具按照「現狀」提供。
 
@@ -481,7 +481,7 @@ Windows 或 PCL2 未來更新後，本工具可能需要相應修改。
 
 ⸻
 
-第三方商標與智慧財產權
+## 第三方商標與智慧財產權
 
 Minecraft、Minecraft Java Edition、Minecraft Bedrock Edition、Microsoft 以及相關名稱、標誌與智慧財產權屬於其各自權利人。
 
@@ -495,7 +495,7 @@ Plain Craft Launcher、PCL、PCL2 以及相關名稱、程式碼、資源與智�
 
 ⸻
 
-License
+## License
 
 本專案本身採用 MIT License。
 
@@ -519,7 +519,7 @@ MIT License 僅適用於本專案自身的原始碼。
 
 ⸻
 
-官方資源
+## 官方資源
 
 資源	連結
 Minecraft 官方購買	https://www.minecraft.net/zh-hans/store/minecraft-java-bedrock-edition-pc
