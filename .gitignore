@@ -1,0 +1,55 @@
+Visual Studio
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+Build output
+
+bin/
+obj/
+
+Test results
+
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+NuGet
+
+packages/
+*.nupkg
+*.snupkg
+
+Visual Studio / IDE caches
+
+.vscode/
+.idea/
+_ReSharper*/
+
+Generated / packaged output
+
+AppPackages/
+BundleArtifacts/
+Publish/
+
+Code coverage
+
+coverage/
+*.coverage
+*.coveragexml
+
+Temporary files
+
+*.tmp
+*.temp
+*.log
+
+OS generated files
+
+.DS_Store
+Thumbs.db
+Desktop.ini

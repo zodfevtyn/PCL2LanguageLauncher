@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="PCL2LanguageLauncher/PCL2LanguageLauncher.csproj" Id="5262ec40-bafa-458a-8e7f-242e0204dc50">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
